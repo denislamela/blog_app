@@ -48,3 +48,9 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Bootstrap
 gem 'bootstrap-sass', '~> 3.3.6'
+
+# Bootstrap confirm
+gem 'data-confirm-modal', github: 'ifad/data-confirm-modal'
+
+# Will paginate
+gem 'will_paginate', '~> 3.1.0'

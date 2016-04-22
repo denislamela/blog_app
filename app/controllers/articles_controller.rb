@@ -5,7 +5,8 @@ class ArticlesController < ApplicationController
   # All TODO, FIXME and OPTIMIZE comments can be listed with "rake notes" commands
 
   def index
-    @articles = Article.all
+    # Small page size to show "Will pagination" with few articles
+    @articles = Article.paginate(:page => params[:page], :per_page => 5)
   end
 
   def show
