@@ -19,43 +19,43 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
-en:
+es:
   application:
     menu:
-      manager: Manage articles
-    footer: This is an application test in Ruby on Rails
-    show: Show
-    edit: Edit
-    back: Back
-    destroy: Delete
-    confirm: Are you sure?
-    commit: Confirm
-    cancel: Cancel
-    save: Save
+      manager: Gestionar artículos
+    footer: Esta es una aplicación de ejemplo hecha en Ruby on Rails
+    show: Mostrar
+    edit: Editar
+    back: Atrás
+    destroy: Eliminar
+    confirm: ¿Está seguro?
+    commit: Confirmar
+    cancel: Cancelar
+    save: Guardar
   articles:
     index:
-      title: Title
-      text: Text
-      new: New article
-      articles: Article
-      confirm: The article will be permanently deleted
+      title: Título
+      text: Texto
+      new: Nuevo artículo
+      articles: Artículos
+      confirm: El artículo se eliminará permanentemente
     new:
-      title: Create article
+      title: Crear artículo
     edit:
-      title: Edit article
+      title: Editar artículo
   activerecord:
     models:
       article:
-        one: article
-        other: articles
+        one: artículo
+        other: artículos
     attributes:
       article:
-        title: Title
-        text: Text
+        title: Título
+        text: Texto
     errors:
       models:
         article:
           attributes:
             title:
-              blank: can not be empty
-              too_short: must have at least 5 characters
+              blank: no puede estar vacío
+              too_short: debe tener al menos 5 carácteres

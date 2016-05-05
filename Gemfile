@@ -54,3 +54,9 @@ gem 'data-confirm-modal', github: 'ifad/data-confirm-modal'
 
 # Will paginate
 gem 'will_paginate', '~> 3.1.0'
+
+# Will paginate i18n
+gem 'will-paginate-i18n', github: 'tigrish/will-paginate-i18n'
+
+# http_accept_language
+gem 'http_accept_language'

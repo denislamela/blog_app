@@ -18,7 +18,7 @@
       <%= f.text_area :text, rows: 10, class: 'form-control' %>
     </div>
 
-    <%= f.submit 'Save', class: 'btn btn-primary' %>
-    <%= link_to 'Back', articles_path, :class => 'btn btn-default' %>
+    <%= f.submit t('application.save'), class: 'btn btn-primary' %>
+    <%= link_to t('application.back'), articles_path, :class => 'btn btn-default' %>
 
 <% end %>

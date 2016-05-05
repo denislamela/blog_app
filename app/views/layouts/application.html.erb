@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My blog app</title>
+    <title>Blog app</title>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
@@ -21,11 +21,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/">My blog app</a>
+          <a class="navbar-brand" href="/">Blog app</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="/articles">Manage articles</a></li>
+            <li><a href="/articles"><%= t 'application.menu.manager' %></a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -38,7 +38,7 @@
 
   <footer class="footer">
     <div class="container">
-      <p class="text-center text-muted default-padding-top">This is an application test using Ruby on Rails</p>
+      <p class="text-center text-muted default-padding-top"><%= t 'application.footer' %></p>
     </div>
   </footer>
 </html>
