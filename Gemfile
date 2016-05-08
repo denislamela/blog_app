@@ -67,3 +67,8 @@ gem 'will-paginate-i18n', github: 'tigrish/will-paginate-i18n'
 
 # http_accept_language
 gem 'http_accept_language'
+
+#Rspec (Versions above 2.14.1 are broken in Windows)
+group :development, :test do
+  gem 'rspec-rails', '~> 2.14.1'
+end
